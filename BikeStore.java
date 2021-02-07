@@ -21,8 +21,7 @@ public class BikeStore	{
 			}
 		else
 			bike = new KidsBike();
-		bike.createBike();
-		bike.getPrice();
+		createBike(type);
 		return bike;
 	}
 	/**
@@ -41,6 +40,8 @@ public class BikeStore	{
 			}
 		else
 			bike = new KidsBike();
+		bike.createBike();
+		bike.getPrice();
 		return bike;
 	}
 
